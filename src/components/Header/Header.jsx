@@ -1,4 +1,4 @@
-import React from 'react';
+import 'react';
 import './Header.css'
 import image from '../../images/Logo.svg'
 const Header = () => {
