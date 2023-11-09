@@ -1,5 +1,5 @@
 import React from 'react';
-import './Product.css'
+import './Product.css';
 const Product = (props) => {
     const { name, img, price, seller, ratings } = props.product;
     // console.log(props.product);
@@ -15,7 +15,7 @@ const Product = (props) => {
                   <span className='font-small'>Seller Name: {seller}</span><br />
                   <span className='font-small'>Rating: {ratings}</span>
             </div>
-            <button onClick={()=>handlarAddToCart(props.product)} className='shopping-card-btn'>Add to Cart<i class="fa-solid fa-cart-shopping"></i></button>
+            <button onClick={()=>handlarAddToCart(props.product)} className='shopping-card-btn'>Add to Cart <i class="fa-solid fa-cart-shopping"></i></button>
         </div>
     );
 };
